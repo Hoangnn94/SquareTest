@@ -38,7 +38,7 @@ public class SquareController : MonoBehaviour
         }
         else if (this.gameObject.transform.position.x == 1 && this.gameObject.transform.position.y == 0)
         {
-            //test conflict 22
+            //test conflict
             this.gameObject.transform.position += new Vector3(0, -1, 0);
 
         }
