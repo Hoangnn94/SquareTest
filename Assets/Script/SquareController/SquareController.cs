@@ -25,7 +25,7 @@ public class SquareController : MonoBehaviour
     }
     void Square()
     {
-         if (this.gameObject.transform.position.x == 0)
+         if (this.gameObject.transform.position.x == 0 && this.gameObject.transform.position.x == 0)
         {
             this.gameObject.transform.position += new Vector3(1, 0, 0);
             
